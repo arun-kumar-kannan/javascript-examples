@@ -1,3 +1,7 @@
+// Scope
+
+// Simply put, the scope is another name for context or the limits within which variables and values are visible and accessible.
+
 // ------------------------------ variable var ----------------------------------
 var user = "sarah";
 console.log(globalThis.hasOwnProperty("user"));
@@ -55,16 +59,4 @@ for (let x = 0; x < 10; x = x + 1) {
 
 console.log(`Orginal Number is ${x}`);
 
-//
-
-// function dosomethimg() {
-//   console.log(uur);
-//   var urr = "arun";
-// }
-// dosomethimg();
-
-let a = 12;
-if (a > 10) {
-  console.log(nod);
-  let nod = "john";
-}
+// ------------------------------- variable const ----------------------------------

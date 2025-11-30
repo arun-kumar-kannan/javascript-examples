@@ -64,5 +64,3 @@ input &&= "correct";
 input ||= "wrong";
 
 console.log(input);
-
-// Nullish coalescing operator

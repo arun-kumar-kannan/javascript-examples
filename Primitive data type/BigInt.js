@@ -7,7 +7,7 @@ console.log(Number.MIN_SAFE_INTEGER);
 var bigIntNum = BigInt(9007199254740991);
 console.log(bigIntNum);
 
-console.log(bigIntNum + 1);
+console.log(bigIntNum + 1n);
 // Cannot mix BigInt and other types, use explicit conversions
 
 console.log(bigIntNum + 4n);

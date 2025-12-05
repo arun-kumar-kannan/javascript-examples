@@ -18,7 +18,6 @@ var message = "hi";
 // -----------
 var showPostButton = false;
 // -----------
-
 var showPostButton = !!message;
 
 console.log(`show post button: ${showPostButton}`);

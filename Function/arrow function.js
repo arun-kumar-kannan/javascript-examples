@@ -38,6 +38,8 @@ let addz = user.setz();
 console.log(addz(35));
 
 //
+// Arrow functions do NOT have their own this
+// But if an arrow function is inside a normal function, it will use the normal function’s this
 
 const rectangle = {
   width: 20,

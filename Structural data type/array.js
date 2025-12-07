@@ -3,6 +3,7 @@
 var fruits = ["apple", "kiwi", "banana", "strawberry"];
 
 console.log(fruits instanceof Array);
+console.log(Array.isArray(fruits));
 
 console.log(`i love ${fruits[0]}`);
 console.log(`i also like ${fruits[1]}`);
